@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page-Social book</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+<!----------------------- navbar --------------------->
+<nav>
+      <div class="nav-left">
+          <img src="image/logo.png" class="logo" >
+          <ul>
+              <li><img src="image/notification.png" ></li>
+              <li><img src="image/inbox.png" ></li>
+              <li><img src="image/video.png" ></li>
+          </ul>
+      </div>
+      <div class="nav-right">
+        <div class="serch-box">
+            <img src="image/search.png" alt="">
+            <input type="text" placeholder="search">
+        </div>
+        <div class="nav-user-icon online" onclick="settingMenuToggle()">
+            <img src="image/profile-pic.png" >
+        </div>
+    </div>
+    <!----------------------- setting menu--------------------->
+    <div class="setting-menu" >
+        <div id="dark-btn" >
+            <span></span>
+        </div>
+        <div class="setting-menu-inner">
+            <div class="user-profile " >
+                <img src="image/profile-pic.png" >
+                <div>
+                    <p>John Nicholson</p>
+                    <a href="#">See Your Profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile" >
+                <img src="image/feedback.png" >
+                <div>
+                    <p>GiveFeedback</p>
+                    <a href="#">Help Us to improve dsesig</a>
+                </div>
+            </div>
+            <hr>
+               </div>
+               
+               <div class="settinglinks">
+                <img src="image/setting.png" class="setting-icon" >
+                <a href="#">Setting & Privacy <img src="image/arrow.png" width="10px"></a>
+
+            </div>
+            <div class="settinglinks">
+                <img src="image/help.png" class="setting-icon" >
+                <a href="#">helo & Support <img src="image/arrow.png" width="10px"></a>
+
+            </div>
+            <div class="settinglinks">
+                <img src="image/display.png" class="setting-icon" >
+                <a href="#">Displau & Acceessiblity <img src="image/arrow.png" width="10px"></a>
+
+            </div>
+            <div class="settinglinks">
+                <img src="image/logout.png" class="setting-icon" >
+                <a href="#">Log Out <img src="image/arrow.png" width="10px"></a>
+
+            </div>
+    </div>
+</nav>  
+<!----------------------- Profile Page --------------------->
+<div class="profile-container">
+    <img src="image/cover.png" class="cover-img">
+    <div class="profile-deatils">
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="image/profile.png" class="pd-img" >
+                <div>
+                    <h3>Jack Nicolsonb</h3>
+                    <p>120 Feiends - 20 Mutual</p>
+                    <img src="image/member-1.png">
+                    <img src="image/member-2.png">
+                    <img src="image/member-3.png">
+                    <img src="image/member-4.png">
+                </div>
+            </div>
+        </div>
+        <div class="pd-right">
+            <button type="button"><img src="image/add-friends.png" > Friend</button>
+            <button type="button"><img src="image/message.png" >Image</button>
+            <br><a href="#"><img src="image/more.png" alt=""></a>
+        </div>
+    </div>
+    <div class="profile-info">
+        <div class="info-col">
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p> dolor sit amet consectetur adipisicing elit. Atque, ad. <img src="image/feeling.png"></p>
+            <hr>
+            <ul>
+                <li><img src="image/profile-job.png" > Director at 99media LTD</li>
+                <li><img src="image/profile-study.png" >  Studied at amity University</li>
+                <li><img src="image/profile-study.png" > Went to DPS Delhi</li>
+                <li><img src="image/profile-home.png" > Lives in Banglore India</li>
+                <li><img src="image/profile-location.png" > From Banglore,India</li>
+            </ul>
+            </div>
+            <div class="profile-intro">
+                <div class="title-box"><h3>Photos</h3>
+                <a href="">All Photo</a>
+            </div>
+            <div class="photo-box">
+                <div><img src="image/photo1.png" ></div>
+                <div><img src="image/photo2.png" ></div>
+                <div><img src="image/photo3.png" ></div>
+                <div><img src="image/photo4.png" ></div>
+                <div><img src="image/photo5.png" ></div>
+                <div><img src="image/photo6.png" ></div>
+            </div>
+                
+
+            </div>
+            <div class="profile-intro">
+                <div class="title-box"><h3>Friends</h3>
+                <a href="">All Friends</a>
+            </div>
+            <p>120 (10 mutual)</p>
+            <div class="friend-box">
+                <div><img src="image/member-1.png" ><p>nazneen</p></div>
+                <div><img src="image/member-2.png" ><p>shubham</p></div>
+                <div><img src="image/member-3.png" ><p>arshita</p></div>
+                <div><img src="image/member-4.png" ><p>abhii</p></div>
+                <div><img src="image/member-5.png" ><p>sohel</p></div>
+                <div><img src="image/member-6.png" ><p>sexy</p></div>
+            </div>
+                
+
+            </div>
+
+        </div>
+        <div class="post-col"> 
+            <div class="write-post-container">
+                <div class="user-profile" >
+                    <img src="image/profile-pic.png" >
+                    <div>
+                        <p>John Nicholson</p>
+                        <small><i class="fas fa-caret-down"></i> Public</small>
+                    </div>
+                </div>
+     
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What`s On your mind,john?"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="image/live-video.png" >Live video</a>
+                        <a href="#"><img src="image/photo.png"> Photo/Video</a>
+                        <a href="#"><img src="image/feeling.png" >Activity</a>
+     
+                     </div>
+                 </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                 <div class="user-profile" >
+                     <img src="image/profile-pic.png" >
+                     <div>
+                         <p>John Nicholson</p>
+                         <span>June 24 2021,13:40 pm</span>
+                     </div>
+                 </div>
+                 <div>
+                     <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                 </div>
+                </div>
+             
+             <p class="post-text">Lorem <span>@easy tutorial</span> ipsum dolor sit amet consectetur adipisicing elit.
+                 <a href="#">#easy tutorial</a>
+                 <a href="#">#Facebook</a>
+             </p>
+             <img src="image/feed-image-1.png" class="post-img">
+             <div class="post-row">
+                 <div class="activity-icon">
+                    <div><img src="image/like-blue.png">120</div>
+                    <div><img src="image/comments.png" >45</div>
+                    <div><img src="image/share.png" >20</div>
+     
+                 </div>
+                 <div class="post-profile-icon">
+                     <img src="image//profile-pic.png" >
+                     <i class="fas fa-caret-down"></i>
+                 </div>
+             </div>
+            
+            </div>
+            <div class="post-container">
+             <div class="post-row">
+              <div class="user-profile" >
+                  <img src="image/profile-pic.png" >
+                  <div>
+                      <p>John Nicholson</p>
+                      <span>June 24 2021,13:40 pm</span>
+                  </div>
+              </div>
+              <div>
+                  <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+              </div>
+             </div>
+          
+          <p class="post-text">Lorem <span>@easy tutorial</span> ipsum dolor sit amet consectetur adipisicing elit.
+              <a href="#">#easy tutorial</a>
+              <a href="#">#Facebook</a>
+          </p>
+          <img src="image/feed-image-2.png" class="post-img">
+          <div class="post-row">
+              <div class="activity-icon">
+                 <div><img src="image/like-blue.png">150</div>
+                 <div><img src="image/comments.png" >95</div>
+                 <div><img src="image/share.png" ></div>
+     
+              </div>
+              <div class="post-profile-icon">
+                  <img src="image//profile-pic.png" >
+                  <i class="fas fa-caret-down"></i>
+              </div>
+          </div>
+         
+            </div>
+            <div class="post-container">
+        <div class="post-row">
+         <div class="user-profile" >
+             <img src="image/profile-pic.png" >
+             <div>
+                 <p>John Nicholson</p>
+                 <span>June 24 2021,13:40 pm</span>
+             </div>
+         </div>
+         <div>
+             <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+         </div>
+        </div>
+     
+     <p class="post-text">Lorem <span>@easy tutorial</span> ipsum dolor sit amet consectetur adipisicing elit.
+         <a href="#">#easy tutorial</a>
+         <a href="#">#Facebook</a>
+     </p>
+     <img src="image/feed-image-3.png" class="post-img">
+     <div class="post-row">
+         <div class="activity-icon">
+            <div><img src="image/like-blue.png">150</div>
+            <div><img src="image/comments.png" >95</div>
+            <div><img src="image/share.png" ></div>
+
+         </div>
+         <div class="post-profile-icon">
+             <img src="image//profile-pic.png" >
+             <i class="fas fa-caret-down"></i>
+         </div>
+     </div>
+    
+            </div>
+            <div class="post-container">
+    <div class="post-row">
+     <div class="user-profile" >
+         <img src="image/profile-pic.png" >
+         <div>
+             <p>John Nicholson</p>
+             <span>June 24 2021,13:40 pm</span>
+         </div>
+     </div>
+     <div>
+         <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+     </div>
+    </div>
+ 
+ <p class="post-text">Lorem <span>@easy tutorial</span> ipsum dolor sit amet consectetur adipisicing elit.
+     <a href="#">#easy tutorial</a>
+     <a href="#">#Facebook</a>
+ </p>
+ <img src="image/feed-image-4.png" class="post-img">
+ <div class="post-row">
+     <div class="activity-icon">
+        <div><img src="image/like-blue.png">150</div>
+        <div><img src="image/comments.png" >95</div>
+        <div><img src="image/share.png" ></div>
+
+     </div>
+     <div class="post-profile-icon">
+         <img src="image//profile-pic.png" >
+         <i class="fas fa-caret-down"></i>
+     </div>
+ </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                 <div class="user-profile" >
+                     <img src="image/profile-pic.png" >
+                     <div>
+                         <p>John Nicholson</p>
+                         <span>June 24 2021,13:40 pm</span>
+                     </div>
+                 </div>
+                 <div>
+                     <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                 </div>
+                </div>
+             
+             <p class="post-text">Lorem <span>@easy tutorial</span> ipsum dolor sit amet consectetur adipisicing elit.
+                 <a href="#">#easy tutorial</a>
+                 <a href="#">#Facebook</a>
+             </p>
+             <img src="image/feed-image-5.png" class="post-img">
+             <div class="post-row">
+                 <div class="activity-icon">
+                    <div><img src="image/like-blue.png">150</div>
+                    <div><img src="image/comments.png" >95</div>
+                    <div><img src="image/share.png" ></div>
+            
+                 </div>
+                 <div class="post-profile-icon">
+                     <img src="image//profile-pic.png" >
+                     <i class="fas fa-caret-down"></i>
+                 </div>
+             </div>
+            
+                        </div>
+            <button type="button" class="Load-More-btn">Load More</button>
+     
+     
+           </div>
+    </div>
+    
+</div>
+<!-------------------footer-------------------->
+<section class="footer">
+      <p>Copyright 2021 -Divyanshu jain</p>
+</section>
+<!------------------java-script-------------------->
+<script src="javascript.js"></script>
+</body>
+</html>
